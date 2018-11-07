@@ -1,0 +1,8 @@
+Bug List:
+
+1. isEmpty() will always return True, even when the Linked List is not empty.
+2. addBack() functions in the same way as addFront, placing the new value in the incorrect space.
+3. removeFront() does not remove any values, thus always returns False because it never removes anything.
+4. removeBack() does not remove any values, thus always returns False because it never removes anything.
+5. Neither removeFront() or removeBack() change size, which is good in this case since they don't do anything, but normally would be a bug.
+6. For all of the values in addFront(), addBack(), and search(), it accepts any type not just ints.  Not sure if this is a bug since all the comments simply say type T, but figured I'd mention it.
